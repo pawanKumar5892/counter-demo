@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+
+## This is the source code for a demo counter app hosted on firebase. 
+
+## Demo: 
+[https://counter-demo-3877c.web.app/](https://counter-demo-3877c.web.app)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
