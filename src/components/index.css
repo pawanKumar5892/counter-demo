@@ -1,0 +1,65 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.counter-container .btn-minus {
+    border-right: 0;
+    border-radius: 1rem 0rem 0 1rem;
+    color: #b34040;
+    background-color: #ffffff;
+}
+
+.counter-container .btn-plus {
+    border-left: 0; 
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: #b34040;
+    color: #ffffff;
+}
+
+.counter-container .btn-plus:hover {
+    background-color: #ffffff;
+    color: #b34040;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.counter-container .btn-minus:hover {
+    background-color: #b34040;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.counter-container input[type=number] {
+    background-color: #fbe9e9;
+    width: 4.5rem;
+}
+
+.counter-container input[type="number"]:focus-visible {    
+    border: 1px solid #b34040;
+    outline: 0;
+}
+
+.counter-container button, .counter-container input{
+    width: 6rem;    
+    border: 1px solid #b34040;    
+    text-align: center;
+    padding: 2rem;    
+    font-weight: bold;
+    color: #b34040;
+    font-size: 2rem;
+}
+.controls {
+    text-align: left;
+}
+.controls div{
+    margin: 0.5rem;    
+}
